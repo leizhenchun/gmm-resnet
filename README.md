@@ -1,17 +1,22 @@
 # GMM-ResNet for Synthetic Speech Detection
 
-step 1：Extract LFCC features for all utterances.
+- step 1：extract LFCC features for all utterances.
+
 run asvspoof21\as21_feature.py
 
-step 2: train the UBM using matlab.
+- step 2: train the UBM using matlab.
+
 run asvspoof21\matlab\asvspoof21_train_gmm.m
 
-step 3: train GMM-ResNet2 and test.
+- step 3: train GMM-ResNet2 and test.
+
 run asvspoof21\as21_gmmresnet2.py
 or (train GMM-ResNet)
 run asvspoof21\as21_gmmresnet.py
 
 Done!
+
+
 
 
 @INPROCEEDINGS{10447628,
